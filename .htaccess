@@ -1,0 +1,26 @@
+# Blokkeer toegang tot JSON-bestanden
+<FilesMatch "\.json$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Sta toegang toe tot HTML-, CSS- en JS-bestanden
+<FilesMatch "\.(html|css|js)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Sta toegang toe tot afbeeldingen
+<FilesMatch "\.(gif|jpg|jpeg|png|svg|webp)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Sta toegang toe tot lettertypen
+<FilesMatch "\.(woff|woff2|ttf|otf|eot)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Blokkeer toegang tot de directory-structuur
+Options -Indexes
