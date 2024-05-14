@@ -43,12 +43,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 4. Create a `.htaccess` file in the project directory with the following content to secure the JSON files:
 
     ```apache
-    # Block access to all PHP files
-    <FilesMatch "\.php$">
-        Order Deny,Allow
-        Deny from all
-    </FilesMatch>
-
     # Block access to JSON files
     <FilesMatch "\.json$">
         Order Deny,Allow
