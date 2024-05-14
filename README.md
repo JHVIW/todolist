@@ -35,7 +35,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 2. Navigate to the project directory:
     ```sh
-    cd todo-list-app
+    cd todolist
     ```
 
 3. Start your PHP server (e.g., XAMPP) and ensure it's pointing to the project directory.
@@ -77,7 +77,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     Options -Indexes
     ```
 
-5. Navigate to `http://localhost/public/` in your web browser to access the application.
+5. Navigate to `http://localhost/your-folder-name/todolist` in your web browser to access the application.
 
 ## Usage
 
@@ -104,18 +104,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 - User passwords are hashed using the `password_hash` function in PHP.
 - Access to non-HTML files is restricted using `.htaccess`.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or additions.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or feedback, please contact [yourname@example.com](mailto:yourname@example.com).
 
 ---
 
-Thank you for using the To-Do List Application! We hope it helps you stay organized and productive.
+Thank you for using the To-Do List Application! I hope it helps you stay organized and productive.
